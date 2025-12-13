@@ -1,10 +1,9 @@
 import { useState, useRef } from 'react';
 
-// ============================================
-// CONFIGURATION - Add your API key here
+// API Configuration
+// Create a .env file with: VITE_API_KEY=your-api-key-here
 // Get a free key at: https://dashboard.apiverve.com
-// ============================================
-const API_KEY = 'your-api-key-here';
+const API_KEY = import.meta.env.VITE_API_KEY;
 const API_URL = 'https://api.apiverve.com/v1/imagecaption';
 
 function App() {
@@ -56,8 +55,8 @@ function App() {
   const generateCaption = async () => {
     if (!image) return;
 
-    if (API_KEY === 'your-api-key-here') {
-      setError('Please add your API key to src/App.jsx');
+    if (!API_KEY) {
+      setError('Add your API key to .env file (VITE_API_KEY=your-key)');
       return;
     }
 
