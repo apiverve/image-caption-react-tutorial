@@ -1,6 +1,7 @@
 # AI Image Caption Generator | APIVerve API Tutorial
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)]()
 [![React](https://img.shields.io/badge/React-18-61dafb)](src/App.jsx)
 [![Vite](https://img.shields.io/badge/Vite-5-646cff)](vite.config.js)
 [![APIVerve | Image Caption](https://img.shields.io/badge/APIVerve-Image_Caption-purple)](https://apiverve.com/marketplace/imagecaption?utm_source=github&utm_medium=tutorial&utm_campaign=image-caption-react-tutorial)
