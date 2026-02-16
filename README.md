@@ -123,8 +123,7 @@ const response = await fetch(API_URL, {
   "status": "ok",
   "error": null,
   "data": {
-    "caption": "A golden retriever dog sitting on a grassy lawn in a park during sunset",
-    "confidence": 0.95
+    "caption": "A golden retriever running through a grassy field on a sunny day"
   }
 }
 ```
